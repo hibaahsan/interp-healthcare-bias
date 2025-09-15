@@ -39,6 +39,6 @@ Note: The code for postprocessing to convert the output to binary Yes/No is very
 ### Healer cases
 To perform patching experiments for Healer cases, for example for race, run
 
-```python src/clinical_applications/patch_healer_cases.py -demographic_type "race" -model_name "allenai/OLMo-7B-0724-Instruct-hf" -output_dir ``<directory_path>``.
+```python src/clinical_applications/patch_healer_cases.py -demographic_type "race" -model_name "allenai/OLMo-7B-0724-Instruct-hf" -output_dir ``<directory_path>```.
 
 In both ``preprocess_depression_bhcs.py`` and ``patch_healer_cases.py``, the scaling factors, token patching positions are set for ``allenai/OLMo-7B-0724-Instruct-hf``. 
